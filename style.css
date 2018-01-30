@@ -1,0 +1,107 @@
+body {
+    background-image: url("media/images/background.jpg");
+}
+
+h1 {
+    color: #4c6727;
+    margin-left: 0;
+    font-family: "Segoe Print";
+    font-style: bold;
+    text-align: center;
+}
+
+p {
+    font-family: "Segoe Print";
+    font-style: bold;
+    text-align: center;
+    }
+
+ul {
+    list-style-type: none;
+    margin: 50px;
+    padding: 0;
+    overflow: hidden;
+    background: rgba(76, 103, 39, 0.8);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #33341e;
+    color: white;
+}
+
+/* Så linket til den aktuelle side skifter baggrundsfarve. */
+a.active_page {
+  background-color: #d19559;
+  color: white;
+}
+
+
+div.base {
+    background: rgba(208, 175, 143, 0.6);
+    width: auto;
+    height: 700px;
+    max-width: 1800px;
+    border: 0 ;
+    margin: auto ;
+
+}
+
+img.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* om_mig */
+
+img.portraet {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Hvad_kan_jeg.html */
+
+div.koerende_bil{
+  height: 350px;
+  width: 500px;
+  float: left;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+div.h_logo{
+  float: left;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+div.floating_ballon{
+  height: 350px;
+  width: 500px;
+  float: right;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* Blog */
+
+img.link_til_blog {
+  display: block;
+  width:900px;
+  height:300px;
+  margin-left: auto;
+  margin-right: auto;
+}
